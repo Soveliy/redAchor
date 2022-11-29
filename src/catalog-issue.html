@@ -1,9 +1,29 @@
-@@include('./assets/templates/template-header.html', { 'lang': 'ru', 'title': 'Red Anchor | Каталожная выдача' })
+@@include('./assets/templates/template-header.html', { 'lang': 'ru', 'title': 'Red Anchor | Карточка комплекта' })
+
+      <!-- Body -->
+    <body class="body html__body js-body">
 
         <!-- PAGE -->
         <div class="body__page page page--light" data-sticky-container>
 
-                @@include('./assets/templates/header.html')
+                            
+            <!-- HEADER -->
+            <header class="page__header header">
+                <div class="page__container">
+                        <div class="page__box">
+
+                                <button class="js-open-popup-button" type="button" data-popup-name="popup-l">
+                                        Open Light Popup
+                                </button>
+                                
+                                <button class="js-open-popup-button" type="button" data-popup-name="popup-d">
+                                        Open Dark Popup
+                                </button>
+
+                        </div>
+                </div>
+            </header>
+            <!-- / HEADER -->
 
                 <!-- MAIN -->
                 <main class="page__main main">
@@ -61,7 +81,21 @@
                                                                 Калибр, мм
                                                             </th>
     
-                                                           
+                                                            <th data-property-name="Тип формы звена" class="product-list__cell product-list__cell--property">
+                                                                Тип формы звена
+                                                            </th>
+    
+                                                            <th data-property-name="Температурная зона эксплуатации" class="product-list__cell product-list__cell--property">
+                                                                Температурная зона эксплуатации
+                                                            </th>
+    
+                                                            <th data-property-name="Калибр, мм" class="product-list__cell product-list__cell--property">
+                                                                Калибр, мм
+                                                            </th>
+    
+                                                            <th data-property-name="Калибр, мм" class="product-list__cell product-list__cell--property">
+                                                                Калибр, мм
+                                                            </th>
     
                                                         </tr>
     
@@ -103,7 +137,279 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                                                                            <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -175,7 +481,279 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                                                                            <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -247,7 +825,279 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                                                                            <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -285,6 +1135,92 @@
     
                                                         </tr>
 
+                                                                                                                <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
                                                         <tr data-link="#" class="product-list__row product-list__row--values pointer">
     
                                                             <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
@@ -319,7 +1255,193 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td class="product-list__cell product-list__cell--options">
+    
+                                                                <div class="product-list__options">
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
+                                                                                    Быстрый заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                    <div class="product-list__option">
+                                                                        <button class="product-list__button pointer" type="button">
+                                                                            <span class="product-list__box">
+                                                                                <svg class="product-list__icon">
+                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
+                                                                                </svg>
+                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
+                                                                                    В заказ
+                                                                                </span>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+    
+                                                                </div>
+    
+                                                            </td>
+    
+                                                        </tr>
+    
+                                                                                                            <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
+                                                                УЗОБ-120-W(-50)
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
+                                                                12
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -357,7 +1479,7 @@
     
                                                         </tr>
 
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+                                                                                                                <tr data-link="#" class="product-list__row product-list__row--values pointer">
     
                                                             <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
                                                                 УЗОБ-120-W(-50)
@@ -391,7 +1513,21 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -428,7 +1564,7 @@
                                                             </td>
     
                                                         </tr>
-
+    
                                                         <tr data-link="#" class="product-list__row product-list__row--values pointer">
     
                                                             <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
@@ -463,7 +1599,21 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -500,7 +1650,7 @@
                                                             </td>
     
                                                         </tr>
-
+    
                                                         <tr data-link="#" class="product-list__row product-list__row--values pointer">
     
                                                             <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
@@ -535,7 +1685,21 @@
                                                                 2
                                                             </td>
     
-                                               
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
+    
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
+                                                                2
+                                                            </td>
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -572,8 +1736,8 @@
                                                             </td>
     
                                                         </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
+    
+                                                                                                            <tr data-link="#" class="product-list__row product-list__row--values pointer">
     
                                                             <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
                                                                 УЗОБ-120-W(-50)
@@ -607,71 +1771,7 @@
                                                                 2
                                                             </td>
     
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
                                                                 2
                                                             </td>
     
@@ -679,799 +1779,13 @@
                                                                 2
                                                             </td>
     
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
+                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
                                                                 2
                                                             </td>
     
                                                             <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
                                                                 2
                                                             </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
-    
-                                                            <td class="product-list__cell product-list__cell--options">
-    
-                                                                <div class="product-list__options">
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-s"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text product-list__text--ds-hidden title title--ms-24 title--ts-28">
-                                                                                    Быстрый заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                    <div class="product-list__option">
-                                                                        <button class="product-list__button pointer" type="button">
-                                                                            <span class="product-list__box">
-                                                                                <svg class="product-list__icon">
-                                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#order-l"></use>
-                                                                                </svg>
-                                                                                <span class="product-list__text title title--ms-24 title--ts-28 title--ds-24 title--dm-28 title--dl-36">
-                                                                                    В заказ
-                                                                                </span>
-                                                                            </span>
-                                                                        </button>
-                                                                    </div>
-    
-                                                                </div>
-    
-                                                            </td>
-    
-                                                        </tr>
-
-                                                        <tr data-link="#" class="product-list__row product-list__row--values pointer">
-    
-                                                            <td data-property-name="Property Name #1" class="product-list__cell product-list__cell--value">
-                                                                УЗОБ-120-W(-50)
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #2" class="product-list__cell product-list__cell--value">
-                                                                12
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #3" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #4" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #5" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #6" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #7" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                                            <td data-property-name="Property Name #8" class="product-list__cell product-list__cell--value">
-                                                                2
-                                                            </td>
-    
-                                               
     
                                                             <td class="product-list__cell product-list__cell--options">
     
@@ -1512,20 +1826,6 @@
                                                     </tbody>
     
                                                 </table>
-
-                                                <div class="product-list__menu">
-                                                    <div class="product-list__menu-item">
-                                                        <a href="#" class="product-list__menu-button">
-                                                            Показать еще
-                                                        </a>
-                                                    </div>
-                                                   
-                                                    <div class="product-list__menu-item">
-                                                        @@include('./assets/templates/_pagination.html')
-                                                    </div>
-                                                    
-                                                </div>
-                                                
                                             </div>
 
 
@@ -1554,4 +1854,216 @@
         </div>
         <!-- / PAGE -->
 
+        <!-- POPUP -->
+        <div class="body__popup popup js-popup" data-popup-name="popup-l">
+            <div class="popup__box">
+                    <div class="popup__block popup__block--light js-popup__block">
+
+                            <button class="popup__button pointer js-popup__button" type="button">
+                                    <span class="popup__button-box">
+                                            <svg class="popup__button-icon popup__button-icon--dark">
+                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#cross"></use>
+                                            </svg>
+                                    </span>
+                            </button>
+
+                            <div class="popup__title title title--ms-44 ui-color-black-100">
+                                    Состав якорных смычек
+                            </div>
+
+                            <div class="popup__inner no-scrollbar">
+
+                                    <div class="slider js-slider ui-background-white-100 swiper" data-slider-name="popup-slider">
+                                    
+                                            <div class="swiper-wrapper">
+
+                                                    <figure class="popup__slide slider__slide swiper-slide">
+                                                            <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                    </figure>
+
+                                                    <figure class="popup__slide slider__slide swiper-slide">
+                                                            <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                    </figure>
+
+                                                    <figure class="popup__slide slider__slide swiper-slide">
+                                                            <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                    </figure>
+
+                                            </div>
+    
+                                            <div class="popup__buttons slider__buttons">
+
+                                                    <button class="slider__button slider__button--l js-slider__button--l pointer" type="button">
+                                                            <span class="slider__box">
+                                                                    <svg class="slider__icon">
+                                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-w"></use>
+                                                                    </svg>
+                                                            </span>
+                                                    </button>
+
+                                                    <button class="slider__button slider__button--r js-slider__button--r pointer" type="button">
+                                                            <span class="slider__box">
+                                                                    <svg class="slider__icon">
+                                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-e"></use>
+                                                                    </svg>
+                                                            </span>
+                                                    </button>
+
+                                            </div>
+    
+                                    </div>
+
+                                    <div class="popup__content">
+
+                                            <div class="text-content ui-color-black-100">
+
+                                                    <p>
+                                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                            Velit perspiciatis cumque aspernatur tenetur quae magnam explicabo nisi,
+                                                            omnis sequi sed eligendi molestiae illum, voluptate architecto ut
+                                                            accusantium reiciendis doloribus, dolore non deleniti minus!
+                                                            Eaque laborum quo consequatur dolor necessitatibus iusto
+                                                            corrupti sapiente magni, dolorem consequuntur, earum modi
+                                                            velit a nam voluptatem nostrum, id aperiam eveniet.
+                                                            Earum iusto excepturi dolorem voluptas quia dolore
+                                                            quidem deleniti exercitationem dicta eaque nihil at,
+                                                            dolor pariatur ipsam iste autem laudantium minus consequatur!
+                                                            Sed, quo nisi. Tempore eaque corrupti aut dicta cupiditate
+                                                            assumenda voluptatum dolores distinctio temporibus.
+                                                            Hic, odio? Aperiam labore doloremque culpa, alias laudantium quo.
+                                                    </p>
+                                            
+                                            </div>
+
+                                            <a class="popup__more-link more-link more-link--dark brief brief--light brief--ms-14 brief--ds-20 ui-color-red-100 pointer" href="#">
+                                                    <span class="more-link__box">
+                                                            <span class="more-link__text">
+                                                                    Подробнее
+                                                            </span>
+                                                            <svg class="more-link__icon">
+                                                                    <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-se"></use>
+                                                            </svg>
+                                                    </span>
+                                            </a>
+
+                                    </div>
+
+                            </div>
+
+                    </div>
+            </div>
+        </div>
+        <!-- / POPUP -->
+
+        <!-- POPUP -->
+        <div class="body__popup popup js-popup" data-popup-name="popup-d">
+                <div class="popup__box">
+                        <div class="popup__block popup__block--dark js-popup__block">
+
+                                <button class="popup__button pointer js-popup__button" type="button">
+                                        <span class="popup__button-box">
+                                                <svg class="popup__button-icon popup__button-icon--light">
+                                                        <use href="./assets/images/svg-sprite/svg-sprite.svg#cross"></use>
+                                                </svg>
+                                        </span>
+                                </button>
+
+                                <div class="popup__title title title--ms-44 ui-color-white-100">
+                                        Состав якорных смычек
+                                </div>
+
+                                <div class="popup__inner no-scrollbar">
+
+                                        <div class="slider js-slider ui-background-white-100 swiper" data-slider-name="popup-slider">
+                                        
+                                                <div class="swiper-wrapper">
+
+                                                        <figure class="popup__slide slider__slide swiper-slide">
+                                                                <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                        </figure>
+
+                                                        <figure class="popup__slide slider__slide swiper-slide">
+                                                                <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                        </figure>
+
+                                                        <figure class="popup__slide slider__slide swiper-slide">
+                                                                <picture><source srcset="./assets/images/content/popup-slider/img-popup-slider.webp" type="image/webp"><img class="slider__image" src="./assets/images/content/popup-slider/img-popup-slider.png" alt="Alt Text"></picture>
+                                                        </figure>
+
+                                                </div>
+        
+                                                <div class="popup__buttons slider__buttons">
+
+                                                        <button class="slider__button slider__button--l js-slider__button--l pointer" type="button">
+                                                                <span class="slider__box">
+                                                                        <svg class="slider__icon">
+                                                                                <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-w"></use>
+                                                                        </svg>
+                                                                </span>
+                                                        </button>
+
+                                                        <button class="slider__button slider__button--r js-slider__button--r pointer" type="button">
+                                                                <span class="slider__box">
+                                                                        <svg class="slider__icon">
+                                                                                <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-e"></use>
+                                                                        </svg>
+                                                                </span>
+                                                        </button>
+
+                                                </div>
+        
+                                        </div>
+
+                                        <div class="popup__content">
+
+                                                <div class="text-content ui-color-white-100">
+
+                                                        <p>
+                                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                                Velit perspiciatis cumque aspernatur tenetur quae magnam explicabo nisi,
+                                                                omnis sequi sed eligendi molestiae illum, voluptate architecto ut
+                                                                accusantium reiciendis doloribus, dolore non deleniti minus!
+                                                                Eaque laborum quo consequatur dolor necessitatibus iusto
+                                                                corrupti sapiente magni, dolorem consequuntur, earum modi
+                                                                velit a nam voluptatem nostrum, id aperiam eveniet.
+                                                                Earum iusto excepturi dolorem voluptas quia dolore
+                                                                quidem deleniti exercitationem dicta eaque nihil at,
+                                                                dolor pariatur ipsam iste autem laudantium minus consequatur!
+                                                                Sed, quo nisi. Tempore eaque corrupti aut dicta cupiditate
+                                                                assumenda voluptatum dolores distinctio temporibus.
+                                                                Hic, odio? Aperiam labore doloremque culpa, alias laudantium quo.
+                                                        </p>
+                                                
+                                                </div>
+
+                                                <a class="popup__more-link more-link more-link--light brief brief--light brief--ms-14 brief--ds-20 ui-color-red-100 pointer" href="#">
+                                                        <span class="more-link__box">
+                                                                <span class="more-link__text">
+                                                                        Подробнее
+                                                                </span>
+                                                                <svg class="more-link__icon">
+                                                                        <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-se"></use>
+                                                                </svg>
+                                                        </span>
+                                                </a>
+
+                                        </div>
+
+                                </div>
+
+                        </div>
+                </div>
+        </div>
+        <!-- / POPUP -->
+
+        <!-- SCRIPTS -->
+        <script src="./assets/scripts/script.min.js"></script>
+        <!-- / SCRIPTS -->
+        
+    </body>
+    <!-- / Body -->
+
+        <!-- SCRIPTS -->
+        <script src="./assets/files/scripts/plugins/lazysizes.min.js"></script>
+        
 @@include('./assets/templates/template-footer.html')

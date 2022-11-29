@@ -1,0 +1,116 @@
+// Pagination
+
+.pagination {
+    width: 100%;
+
+    .arrow{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      cursor: pointer;
+      height: 56px;
+      width: 56px;
+      background: #F5F5F5;
+
+        .mobi{
+            @media screen and (min-width: 1024px) {
+                display: none;
+            }
+        }
+
+        .pc{
+            display: none;
+            @media screen and (min-width: 1024px) {
+                display: block;
+            }
+        }
+
+    }
+
+    .popup__button-icon{
+        width: 12px;
+        height: 12px;
+    }
+  
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #150F0F;
+
+        img {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__prew {
+        
+        cursor: pointer;
+
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: #FFFFFF;
+        height: 56px;
+
+
+        &.mobi{
+            @media screen and (min-width: 600px) {
+                display: none;
+            }
+        }
+
+        &.pc{
+            display: none;
+            @media screen and (min-width: 600px) {
+                display: flex;
+            }
+        }
+      
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 300ms;
+        cursor: pointer;
+        border-bottom: 1px solid transparent;
+        margin-right: 12px;
+        line-height: 1;
+        font-weight: 300;
+        font-size: 18px;
+
+        &:last-child{
+            margin: 0;
+        }
+
+        &:hover {
+            color: #DD2B1C;
+        }
+
+        &.active{
+            color: #DD2B1C; 
+        }
+    }
+
+    &__next {
+        cursor: pointer;
+        transform: rotate(180deg);
+
+    }
+    
+}
+  

@@ -449,6 +449,10 @@
 
     &__sidebar {
         order: 2;
+        display: none;
+        @media screen and (min-width: 1366px) {
+            display: block;
+        }
 
         @media screen and (min-width: 1024px) {
             order: 1;
