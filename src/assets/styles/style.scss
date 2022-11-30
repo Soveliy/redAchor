@@ -20,7 +20,7 @@
 // @import './blocks/mixins.scss';
 // @import './blocks/hero.scss';
 // @import './blocks/nikita.scss';
-
+@import './blocks/container.scss';
 @import './blocks/body.scss';
 @import './blocks/page.scss';
 @import './blocks/header.scss';
@@ -84,3 +84,5 @@
 
 @import './blocks/garbage.scss';
 @import './blocks/pagination.scss';
+
+@import './blocks/catalog-issue.scss';
