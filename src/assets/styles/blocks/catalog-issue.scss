@@ -47,8 +47,16 @@
 .properties-table{
     background: #F5F5F5;
     padding: 16px;
-    width: 100%;
+    width: 980px;
     color: #50575A;
+
+    @media screen and (min-width: 660px) {
+        font-size: 18px;
+        line-height: 22px;
+        width: 1110px;
+    }
+
+
 
    &__head{
     font-size: 16px;
@@ -56,30 +64,50 @@
     letter-spacing: 0.03em;
     font-weight: 500;
     text-align: left;
+    white-space: nowrap;
+
+    th{
+        display: inline-block;
+        margin-left: 16px;
+        width: 67px;
+
+        &:first-child{
+            width: 138px;
+            margin-left: 0;
+        }
+
+        @media screen and (min-width: 660px) {
+            width: 70px;
+        }
+    }
+
    }
 
    tr{
-    margin: 16px 0;
-    border-top: 1px solid rgba(79, 86, 89, 0.1);
+    width: 100%;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(79, 86, 89, 0.1);
    }
 
     td{
-        width: 55px;
-        margin: 0 8px;
-        text-align: center;
+        display: inline-block;
+        width: 67px;
+        margin-left: 16px;
         font-weight: 300;
 
+        @media screen and (min-width: 660px) {
+            width: 70px;
+        }
+
         &:first-child{
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.03em;
+            display: inline-block;
             font-weight: 600;
-            width: 100%;
-            width: 117px;
+            width: 138px;
             padding-left: 0;
             text-align: left;
-
-            // color:red;
+            margin-left: 0;
         }
+
     }
 }
