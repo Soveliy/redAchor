@@ -1,0 +1,25 @@
+.catalog-issue{
+    .page__row{
+
+        margin-bottom: 16px;
+
+        @media screen and (min-width: 600px) {
+            margin-bottom: 24px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 32px;
+        }
+    }
+
+    .description__content {
+        p{
+            span{
+                display: block;
+                color: #F5F5F5;
+                margin-top: 40px;
+                // linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 100%);
+            }
+        }
+    }
+}
