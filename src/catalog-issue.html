@@ -24,6 +24,116 @@
 
                                 <div class="page__sidebar">
 
+                                    @@include('./assets/block-mixin/_block-dropdown.html')
+
+                                    <form action="#" class="filter">
+                                        <div class="filter__inner">
+                                            <div class="filter__head bb">
+                                                <div class="filter__head-title">
+                                                    Материал
+
+                                                    <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#question-red"></use>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="filter__category">
+                                                    <label class="radio">
+                                                      <input type="radio" name="toggle" class="radio__input">
+                                                      <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                      <div class="radio__name">Категория 1 (U1)</div>
+                                                    </label>
+                                                    <label class="radio">
+                                                      <input type="radio" name="toggle" class="radio__input">
+                                                      <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                      <div class="radio__name">Категория 2 (U2)</div>
+                                                    </label>
+                                                    <label class="radio">
+                                                      <input type="radio" name="toggle" class="radio__input">
+                                                      <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                      <div class="radio__name">Категория 3 (U3)</div>
+                                                    </label>
+                                                    <label class="radio">
+                                                      <input type="radio" name="toggle" class="radio__input">
+                                                      <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                      <div class="radio__name">Категория 4 (U4)</div>
+                                                    </label>
+                                                    <label class="radio">
+                                                      <input type="radio" name="toggle" class="radio__input">
+                                                      <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                      <div class="radio__name">Категория 5 (U5)</div>
+                                                    </label>
+
+                                                    <label class="radio">
+                                                        <input type="radio" name="toggle" class="radio__input">
+                                                        <span>
+                                                            <svg>
+                                                                <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                            </svg>
+                                                          </span>
+                                                        <div class="radio__name">Категория 6 (U6)</div>
+                                                    </label>
+
+                                                    <label class="radio">
+                                                        <input type="radio" name="toggle" class="radio__input">
+                                                        <span>
+                                                            <svg>
+                                                                <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                            </svg>
+                                                          </span>
+                                                        <div class="radio__name">Категория 7 (U7)</div>
+                                                    </label>
+
+                                                    <div class="filter__show-more">
+                                                        <b>Показать еще 2 </b>
+                                                        
+                                                        <span>
+                                                            <svg>
+                                                                <use href="./assets/images/svg-sprite/svg-sprite.svg#arrow-red"></use>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                              
+                                                  </div>
+                                            </div>
+
+                                            <div class="filter__additional-button bb">
+                                                <label class="radio">
+                                                    <input type="radio" name="toggle" class="radio__input">
+                                                    <span>
+                                                        <svg>
+                                                            <use href="./assets/images/svg-sprite/svg-sprite.svg#check-mark"></use>
+                                                        </svg>
+                                                      </span>
+                                                    <div class="radio__name">Категория 7 (U7)</div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    @@include('./assets/block-mixin/_download-catalog.html')
+                          
                                 </div>
 
                                 <div class="page__content">
@@ -1632,17 +1742,31 @@
 
             <div class="tabs__content js-tabs__content" data-tabs-content-name="content-1">
                        <!-- DESCRIPTION -->
-                       <div class="description description--light text js-text" data-max-lines="8">
-                        <div class="description__container">
+                       <div class="description description--light text" data-max-lines="8">
+                        <div class="description__container text-dropdown">
 
-                                <div class="description__content text__content js-text__content ui-color-black-100">
+                                <div class="sub-categories-head__description text js-text" data-max-lines="5">
+                
+                                    <div class="description__content text__content js-text__content ui-color-black-100">
+
+                                     
+                                        <p class="pc">
+                                            Цепи по ОСТ В5.2299–79 из маломагнитной стали изготавливаются из высоколегированной стали с добавлением марганца и алюминия в соответствии с ТУ 14–1-779–73.
+
+                                            <span>
+                                                    Форма выпуска: Смычки длиной 25 или 27,5 метров.
+                                            </span>
+
+
+                                        </p>
+
 
                                         <p>
-                                                Цепи по ОСТ В5.2299–79 из маломагнитной стали изготавливаются из высоколегированной стали с добавлением марганца и алюминия в соответствии с ТУ 14–1-779–73.
-
-                                                <span>
-                                                        Форма выпуска: Смычки длиной 25 или 27,5 метров.
-                                                </span>
+                                                Цепи по ОСТ В5.2299–79 из маломагнитной стали изготавливаются из высоколегированной стали
+                                                с добавлением марганца и алюминия в соответствии с ТУ 14–1-779–73. 
+                                                Форма выпуска: Смычки длиной 25 или 27,5 метров. Цепи по ОСТ В5.2299–79 из
+                                                маломагнитной стали изготавливаются из высоколегированной стали с добавлением
+                                                марганца и алюминия в соответствии с ТУ 14–1-779–73.
                                         </p>
 
                                         <p>
@@ -1653,19 +1777,13 @@
                                                 марганца и алюминия в соответствии с ТУ 14–1-779–73.
                                         </p>
 
-                                        <p>
-                                                Цепи по ОСТ В5.2299–79 из маломагнитной стали изготавливаются из высоколегированной стали
-                                                с добавлением марганца и алюминия в соответствии с ТУ 14–1-779–73. 
-                                                Форма выпуска: Смычки длиной 25 или 27,5 метров. Цепи по ОСТ В5.2299–79 из
-                                                маломагнитной стали изготавливаются из высоколегированной стали с добавлением
-                                                марганца и алюминия в соответствии с ТУ 14–1-779–73.
-                                        </p>
+                                    </div>
+
+                                    <button class="sub-categories-head__more-button text__more-button js-text__more-button pointer more-button brief brief--medium brief--ms-14 brief--ts-16 brief--dl-20 ui-color-red-100" type="button" data-opening-text="Подробнее" data-closing-text="Свернуть">
+                                            Подробнее
+                                    </button>
 
                                 </div>
-
-                                <button class="description__more-button text__more-button js-text__more-button pointer more-button brief brief--medium brief--ms-14 brief--ts-16 brief--dl-20 ui-color-red-100" type="button" data-opening-text="Подробнее" data-closing-text="Свернуть">
-                                        Подробнее
-                                </button>
 
                         </div>
                 </div>

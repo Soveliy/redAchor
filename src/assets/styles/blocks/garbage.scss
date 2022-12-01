@@ -1048,7 +1048,8 @@
         @media screen and (min-width: 1024px) {
             display: table-row-group;
             width: 100%;
-            
+            position: sticky;
+            top: 0px;
         }
     }
 

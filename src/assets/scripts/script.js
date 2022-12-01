@@ -18,7 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
     @@include('./blocks/unit-block.js');
     @@include('./blocks/text.js');
     @@include('./blocks/slider.js');
-
-
-
 });

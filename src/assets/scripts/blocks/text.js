@@ -25,6 +25,7 @@ const initText = () => {
                 textButton.classList.remove('text__more-button--hidden');
             }
         };
+        
         closeTextContent();
         window.addEventListener('resize', closeTextContent);
         textButton.addEventListener('click', (event) => {
