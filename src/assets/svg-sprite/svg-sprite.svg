@@ -101,6 +101,12 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M5.99482 7.41133L1.10651 2.52301L0.0427611 3.58676L4.93108 8.47507L4.93059 8.47556L5.99125 9.53622L5.99174 9.53573L5.99998 9.54397L7.06372 8.48022L7.05548 8.47199L11.9654 3.56207L10.9047 2.50141L5.99482 7.41133Z" fill="#DD2B1C"/>
     </symbol>
         
+    <symbol id='basket' viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 0L6 0V2L14 2V0Z" fill="#4F5659" fill-opacity="0.4"/>
+        <path d="M8.5 8H6.5L6.5 20H8.5L8.5 8Z" fill="#4F5659" fill-opacity="0.4"/>
+        <path d="M11.5 8H13.5L13.5 20H11.5L11.5 8Z" fill="#4F5659" fill-opacity="0.4"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18 6L20 6V4L0 4L0 6H2L2 24L18 24L18 6ZM16 22L4 22L4 6L16 6L16 22Z" fill="#4F5659" fill-opacity="0.4"/>
+    </symbol>
         
         
         

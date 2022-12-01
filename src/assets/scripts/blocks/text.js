@@ -16,26 +16,26 @@ const initText = () => {
             textContent.style.maxHeight = textContent.scrollHeight + 'px';
             textButton.innerText = textButton.dataset.closingText;
         };
-        const closeTextContent = () => {
-            textContent.style.maxHeight = getMaxHeight() + 'px';
-            textButton.innerText = textButton.dataset.openingText;
-            if (textContent.scrollHeight <= getMaxHeight()) {
-                textButton.classList.add('text__more-button--hidden');
-            } else {
-                textButton.classList.remove('text__more-button--hidden');
-            }
-        };
+        // const closeTextContent = () => {
+        //     textContent.style.maxHeight = getMaxHeight() + 'px';
+        //     textButton.innerText = textButton.dataset.openingText;
+        //     if (textContent.scrollHeight <= getMaxHeight()) {
+        //         textButton.classList.add('text__more-button--hidden');
+        //     } else {
+        //         textButton.classList.remove('text__more-button--hidden');
+        //     }
+        // };
         
-        closeTextContent();
-        window.addEventListener('resize', closeTextContent);
-        textButton.addEventListener('click', (event) => {
-            event.preventDefault();
-            if (textContent.style.maxHeight == getMaxHeight() + 'px' && textContent.scrollHeight > getMaxHeight()) {
-                openTextContent();
-            } else {
-                closeTextContent();
-            }
-        });
+        // closeTextContent();
+        // window.addEventListener('resize', closeTextContent);
+        // textButton.addEventListener('click', (event) => {
+        //     event.preventDefault();
+        //     if (textContent.style.maxHeight == getMaxHeight() + 'px' && textContent.scrollHeight > getMaxHeight()) {
+        //         openTextContent();
+        //     } else {
+        //         closeTextContent();
+        //     }
+        // });
     });
 };
 
